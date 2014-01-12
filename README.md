@@ -1,4 +1,3 @@
-
     Practica 2 Copyright (C) 2013 María Victoria Santiago Alcalá. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see .
 
 Practica3 - Diseño de sistemas usando CPU y almacenamiento virtuales.
@@ -22,9 +21,10 @@ Usaré VMware Player como software de virtualización para esta práctica.
           Centos Balanceador: máquina balanceadora con nginx instalado.
 
 
+Con ello, lo que hacemos es configurar una red entre las dos maquinas virtuales servidoras de cada distribución de teniendo un balanceador que reparta la carga entre los servidores, terminando con el posible problema de sobrecarga de estos servidores.
+El fin es balancear nuestros servidores http tras configurarlos como explicaré a continuación en la sección de `MAQUINAS VIRTUALES`, consiguiendo con ello que la infraestructura tenga una alta disponibilidad.
 
-Para probar la eficiencia de las diferentes configuraciones, voy a comprobar el rendimiento de las mismas bajo diferentes sistemas operativos.
-
+Finalmente probraremos la eficiencia de las diferentes configuraciones de las máquinas, comprobando el rendimiento de las mismas tanto en Ubuntu como en CentOS.
 
 ## MÁQUINAS VIRTUALES
 
