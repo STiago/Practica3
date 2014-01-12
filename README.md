@@ -44,7 +44,7 @@ Descripción: 1 procesador / 512 MB RAM
 Descripción: 1 procesador / 1024 MB RAM
 
 Las máquinas 1 y 2 al ser las servidoras, mostraran nuestra aplicación como he comentado al principio de esta memoria.
-Para ello, tenemos que configurarla desde línea de comandos en /var/www/ conde encontraremos el fichero index.html el cual sustituiremos por el de nuestra aplicación.
+Para ello, tenemos que configurarla desde línea de comandos en /var/www/ donde encontraremos el fichero index.html el cual sustituiremos por el de nuestra aplicación.
 
 
 En la máquina 3, procederemos a configurar el balanceador de http. En mi caso he elegido NginX debido a su buen rendimiento, aunque también se puede hacer con HaProxy, Pound, Light o cualquier otro software o servidor.
@@ -112,7 +112,6 @@ También podemos abrir nuestro navegador, introduciendo la IP de la máquina bal
 
 
 
-
 ## CENTOS
 
 #### MÁQUINA 4: CentOS 6.5 - CentOS 1
@@ -124,6 +123,54 @@ Descripción: 1 procesador / 1024 MB RAM
 
 #### MÁQUINA 6: CentOS 6.5 - CentOS Balanceador
 Descripción: 2 procesador / 512 MB RAM
+
+
+Al igual que ocurre en las máquinas de Ubuntu, las máquinas 4 y 5 al ser las servidoras, mostraran nuestra aplicación y  por lo tanto tenemos que configurarlas en /var/www/ donde encontraremos el fichero index.html el cual sustituiremos por el de nuestra aplicación.
+
+En su configuración, debemos de instalar LAMP, manualmente desde consola Apache + MySQL + PHP e la siguiente forma:
+
+		APACHE:
+			yum install httpd
+			service httpd start
+			chkconfig httpd on
+
+		MySQL:
+			yum install mysql-server
+			service mysqld start
+			chkconfig mysqld on
+			/usr/bin/mysql_secure_installation
+
+		PHP:
+			yum install php php-mysql
+			yum searh php-  (para ver los módulos que tenemos a nuestra disposición)
+			nano /var/www/html/aplicacion.php
+			service httpd restart
+			
+
+Procedemos ahora a configurar nginx en CentOS:
+
+		PASOS:
+	
+			1. Entramos carpeta temporal para descargar el archivo repositorio de Nginx:
+					
+					cd /tmp
+					wget http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm
+					rpm -ivh nginx-release-centos-6-0.el6.ngx.noarch.rpm
+
+			2. Instalamos nginx, iniciamos su servicio y hacemos que suba al inicio:
+
+					yum install nginx
+					service nginx start
+					chkconfig --levels 35 nginx on
+
+			3. Modificamos el archivo de configuración añadiendole el nombre del servidor y demás igual que hemos hecho en el balanceador de Ubuntu:
+		
+					nano /etc/nginx/conf.d/default.conf
+
+			4. Finalmente reiniciamos el servicio nginx:
+
+					service nginx restart
+
 
 ## BENCHMARK
 
