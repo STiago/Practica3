@@ -34,14 +34,19 @@ A continuación, realizo una breve descripción de las máquinas virtuales que h
 
 #### MÁQUINA 1: Ubuntu Server 12.04 - Ubuntu 
 Descripción: 2 procesador / 1024 MB RAM
+IP : 192.168.246.128
 
 
 #### MÁQUINA 2: Ubuntu Server 12.04 - Ubuntu 1
 Descripción: 1 procesador / 512 MB RAM
+IP : 192.168.246.130
 
 
 #### MÁQUINA 3: Ubuntu Server 12.04 - Ubuntu Balanceador
 Descripción: 1 procesador / 1024 MB RAM
+IP : 192.168.246.129
+
+
 
 Las máquinas 1 y 2 al ser las servidoras, mostraran nuestra aplicación como he comentado al principio de esta memoria.
 Para ello, tenemos que configurarla desde línea de comandos en /var/www/ donde encontraremos el fichero index.html el cual sustituiremos por el de nuestra aplicación.
@@ -137,13 +142,17 @@ Podemos observar como va balanceando la carga en el terminal cuando al meter la 
 
 #### MÁQUINA 4: CentOS 6.5 - CentOS 1
 Descripción: 2 procesador / 256 MB RAM
+IP : 192.168.246.135
+
 
 #### MÁQUINA 5: CentOS 6.5 - CentOS 2
 Descripción: 1 procesador / 1024 MB RAM
+IP : 192.168.246.132
 
 
 #### MÁQUINA 6: CentOS 6.5 - CentOS Balanceador
 Descripción: 2 procesador / 512 MB RAM
+IP : 192.168.246.134
 
 
 Al igual que ocurre en las máquinas de Ubuntu, las máquinas 4 y 5 al ser las servidoras, mostraran nuestra aplicación y  por lo tanto tenemos que configurarlas en /var/www/ donde encontraremos el fichero index.html el cual sustituiremos por el de nuestra aplicación.
