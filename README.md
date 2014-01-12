@@ -48,6 +48,7 @@ Para ello, tenemos que configurarla desde línea de comandos en /var/www/ donde 
 
 A modo de ejemplo inicial, sin meter aun la aplicación y modificando solo el index.html que viene por defecto quedaría como muestra la siguiente captura, y quedaría pendiente meter la aplicacion la cual he dejado para después de ver que funcionan perfectamente antes.
 
+
 ![Practica3](https://dl.dropbox.com/s/3e48bzbmfj1lq3n/pra9%28modificacion%20contenido%20index%20maquinas%29.png)
 
 
@@ -65,10 +66,10 @@ A continuación, procedo a describir el proceso de instalación de nginx en ubun
                 rm -f /tmp/nginx_signing.key
                 
                 
-                ![Practica3](https://dl.dropbox.com/s/rtrxp46jkz6o2m4/pra2.png)
+ ![Practica3](https://dl.dropbox.com/s/rtrxp46jkz6o2m4/pra2.png)
                 
                 
-            2. Añadimos el repositorio editando /etc/apt/sources.list :
+	    2. Añadimos el repositorio editando /etc/apt/sources.list :
                 
                 echo "deb http://nginx.org/packages/ubuntu/ lucid nginx" >> /etc/apt/sources.list
                 echo "deb-src http://nginx.org/packages/ubuntu/ lucid nginx" >> /etc/apt/sources.list
@@ -100,9 +101,11 @@ A continuación, procedo a describir el proceso de instalación de nginx en ubun
                         proxy_set_header Connection "";
                     }
                 }
+               
                 
                 
-                ![Practica3](https://dl.dropbox.com/s/uh6l32s1ft6kf2h/pra8%28service%20restart%20nginx%29.png)
+![Practica3](https://dl.dropbox.com/s/uh6l32s1ft6kf2h/pra8%28service%20restart%20nginx%29.png)
+                
                 
                 
             5. Lanzamos el servicio nginx:
@@ -119,7 +122,10 @@ Finalmente, obtendremos en el terminal el balanceo de una maquina y de otra como
 También podemos abrir nuestro navegador, introduciendo la IP de la máquina balanceadora y nos mostrara nuestra aplicación.
 
 
+
 ![Practica3](https://dl.dropbox.com/s/zxtq1mf2mqiosdz/pra10%28fin%20de%20balanceo%20de%20carga%29.png)
+
+
 
 
 Podemos observar como va balanceando la carga en el terminal cuando al meter la IP del balanceador nos va saliendo el contenido de nuestras dos maquinas servidoras.
@@ -150,7 +156,7 @@ En su configuración, debemos de instalar LAMP, manualmente desde consola Apache
 			chkconfig httpd on
 			
 			
-		![Practica3](https://dl.dropbox.com/s/dopj7m95dcioivy/centos1%28apache%20install%29.png)
+![Practica3](https://dl.dropbox.com/s/dopj7m95dcioivy/centos1%28apache%20install%29.png)
 		
 
 		MySQL:
@@ -187,7 +193,8 @@ Procedemos ahora a configurar nginx en CentOS:
 					nano /etc/nginx/conf.d/default.conf
 
 
-													                                 ![Practica3](https://dl.dropbox.com/s/1m0d5id89pa5r70/centos%28nginx%20configuracion%29.png)
+													        ![Practica3](https://dl.dropbox.com/s/1m0d5id89pa5r70/centos%28nginx%20configuracion%29.png)
+
 
 
 			4. Finalmente reiniciamos el servicio nginx:
