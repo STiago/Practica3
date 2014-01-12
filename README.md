@@ -233,6 +233,27 @@ Seguidamente procedemos a iniciar la máquina, instalamos los tools y a partir d
 
 #### EN ḾÁQUINAS CENTOS
 
+Iniciamos nuestra máquina, cambiamos a modo superusuario y seguimos los siguientes pasos:
+
+	`mkdir -p /media/cdrom`
+	`mount /dev/cdrom /media/cdrom`
+	`cd /media/cdrom`
+	`cp VM*.tar.gz /tmp`
+	`cd /media/cdrom`
+	`cp VM*.tar.gz /tmp`
+	`apt-get -y install linux-headers-server build-essential`
+	`cd /tmp`
+	`umount /media/cdrom`
+	`tar xzvf VM*.tar.gz`
+	`cd vmware-tools-distrib`
+	`mkdir -p /usr/lib64`
+	`./vmware-install.pl -d`
+	`reboot`
+	`cd /mnt/hgfs`
+	
+Y ahí estará la carpeta compartida con nuestra máquina anfitriona. Ya solo queda hacer `mv aplicacion.html /var/www` y sustituir el fichero index.html por el de nuestra aplicación.
+	
+
 ## BENCHMARK
 
 
