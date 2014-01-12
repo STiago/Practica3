@@ -203,6 +203,36 @@ Procedemos ahora a configurar nginx en CentOS:
 
 
 
+## APLICACIÓN
+
+#### EN MÁQUINAS UBUNTU
+
+Inicialmente, tenemos nuestro fichero con la aplicacion en nuestra máquina anfitriona, para introducirlo en la virtual y hacerla funcionar ahi basta con abrir vmware seleccionar nuestra máquina, editarla y en el menu de opaciones pulsar "shared forlders" y añadir el nomre y ruta de la carpeta que queremos compartir con la anfitriona como muestra la siguiente captura:
+
+
+![Practica3](https://dl.dropbox.com/s/pwfcav2bxw7tge2/ubuntu1%28comparte%20carpetas%29.png)
+
+
+Seguidamente procedemos a iniciar la máquina, instalamos los tools y a partir de ahi seguimos los siguientes pasos:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### EN ḾÁQUINAS CENTOS
+
 ## BENCHMARK
 
 
