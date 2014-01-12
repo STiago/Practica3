@@ -28,6 +28,27 @@ Finalmente probraremos la eficiencia de las diferentes configuraciones de las m�
 
 ## MÁQUINAS VIRTUALES
 
+### MÁQUINA 1: Ubuntu Server 12.04 - Ubuntu 1
+
+
+
+### MÁQUINA 2: Ubuntu Server 12.04 - Ubuntu 2
+
+
+
+### MÁQUINA 3: Ubuntu Server 12.04 - Ubuntu Balanceador
+
+
+
+### MÁQUINA 4: CentOS 6.5 - CentOS 1
+
+
+### MÁQUINA 5: CentOS 6.5 - CentOS 2
+
+
+
+### MÁQUINA 6: CentOS 6.5 - CentOS Balanceador
+
 
 ## BENCHMARK
 
