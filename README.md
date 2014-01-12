@@ -251,8 +251,14 @@ Iniciamos nuestra máquina, cambiamos a modo superusuario y seguimos los siguien
 	`reboot`
 	`cd /mnt/hgfs`
 	
-Y ahí estará la carpeta compartida con nuestra máquina anfitriona. Ya solo queda hacer `mv aplicacion.html /var/www` y sustituir el fichero index.html por el de nuestra aplicación.
 	
+Y ahí estará la carpeta compartida con nuestra máquina anfitriona. Ya solo queda hacer `mv aplicacion.html /var/www` y sustituir el fichero index.html por el de nuestra aplicación y ponerla en funcionamiento como muestra la siguiente captura:
+	
+	
+![Practica3](https://dl.dropbox.com/s/g7t6ll53k2m9n1w/app1centos.png)
+	
+
+
 
 ## BENCHMARK
 
