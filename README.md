@@ -294,7 +294,9 @@ Y ahora en la anfitriona, al meter la ip en el navegador de la máquina balancea
 
 En este apartado vamos a realizar una serie de test con la herramienta `ab`.
 
-ab -n1000 -c50 http://192.168.246.128/ > test1virtualbox.txt
+`ab -n 1000 -c 50 http://192.168.246.128/index.html > test1ubuntu.txt`
+
+
 
 
 
