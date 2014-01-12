@@ -28,6 +28,8 @@ Finalmente probraremos la eficiencia de las diferentes configuraciones de las m�
 
 ## MÁQUINAS VIRTUALES
 
+A continuación, realizo una breve descripción de las máquinas virtuales que he creado, dandole a cada una memoria RAM y un número de prodesadores determinado y distinto a las demás:
+
 ### MÁQUINA 1: Ubuntu Server 12.04 - Ubuntu 1
 
 
