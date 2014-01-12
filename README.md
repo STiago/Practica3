@@ -253,8 +253,9 @@ Iniciamos nuestra máquina, cambiamos a modo superusuario y seguimos los siguien
 	`2. Abrimos el navegador y la descargamos en la máquina virtual.`
 	`3. La movemos a /var/www/html/`
 	
+O simplemente arrastramos el archivo al escritorio de CentOS.
 
-Y finalmente la sustituimos por el index.html al igual que hemos hecho en las máquinas de ubuntu server. Quedandonos de la siguiente forma:
+Finalmente la sustituimos por el index.html al igual que hemos hecho en las máquinas de ubuntu server. Quedandonos de la siguiente forma:
 
 	
 	
