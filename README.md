@@ -1,4 +1,4 @@
-` Practica 2 Copyright (C) 2013 María Victoria Santiago Alcalá. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see .`
+Practica 2 Copyright (C) 2013 María Victoria Santiago Alcalá. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see .
 
 Practica3 - Diseño de sistemas usando CPU y almacenamiento virtuales.
 ====================================================================
@@ -103,6 +103,7 @@ A continuación, procedo a describir el proceso de instalación de nginx en ubun
 
 Finalmente, obtendremos en el terminal el balanceo de una maquina y de otra como se muestra en la siguiente captura a modo de prueba de que funciona toda la configuración realizada anteriormente:
 
+![Practica3](https://dl.dropbox.com/s/et14umdakwmx2bb/algo1.png)
 
 
 También podemos abrir nuestro navegador, introduciendo la IP de la máquina balanceadora y nos mostrara nuestra aplicación.
