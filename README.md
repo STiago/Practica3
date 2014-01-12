@@ -281,6 +281,15 @@ Finalmente la sustituimos por el index.html al igual que hemos hecho en las máq
 
 
 
+Y ahora en la anfitriona, al meter la ip en el navegador de la máquina balanceadora o al hacerle en el terminal `curl http://192.168.246.134` vemos como al igual que en ubuntu y como habiamos realizado antriormente en la prueba inicial con el index, nos balancea la carga y nos muestra la aplicación:
+
+
+![Practica3](https://dl.dropbox.com/s/hzyohck1gmvm3yc/centosfin.png)
+
+
+
+
+
 ## BENCHMARK
 
 
