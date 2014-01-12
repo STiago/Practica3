@@ -205,6 +205,12 @@ Procedemos ahora a configurar nginx en CentOS:
 
 ## APLICACIÓN
 
+Nuestra aplicación es un servidor de aplicaciones de mapas en la web que ofrece imágenes de mapas desplazables, pudiendo insertar el nombre de un lugar o la dirección y mostrando la misma en el mapa.
+También nos muestra la latitud y longitud de las coordenadas de dicha dirrección.
+
+Nos permite realizar acercamientos y alejamientos para mostrar el mapa. También se pueden usar las teclas + y - para acercar o alejar a modo de zoom.
+
+
 #### EN MÁQUINAS UBUNTU
 
 Inicialmente, tenemos nuestro fichero con la aplicacion en nuestra máquina anfitriona, para introducirlo en la virtual y hacerla funcionar ahi basta con abrir vmware seleccionar nuestra máquina, editarla y en el menu de opaciones pulsar "shared forlders" y añadir el nomre y ruta de la carpeta que queremos compartir con la anfitriona como muestra la siguiente captura:
