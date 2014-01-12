@@ -256,7 +256,7 @@ Y ahí estará la carpeta compartida con nuestra máquina anfitriona. Ya solo qu
 
 
 
-Y como apreciamos, el balanceador funciona correctamnte.
+Y como apreciamos, el balanceador funciona correctamnte al haber introducido su dirección IP en el navegador de la anfitriona.
 
 
 
