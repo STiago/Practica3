@@ -193,7 +193,9 @@ Procedemos ahora a configurar nginx en CentOS:
 					nano /etc/nginx/conf.d/default.conf
 
 
+
 													        ![Practica3](https://dl.dropbox.com/s/1m0d5id89pa5r70/centos%28nginx%20configuracion%29.png)
+
 
 
 
