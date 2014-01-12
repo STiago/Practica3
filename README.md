@@ -292,4 +292,16 @@ Y ahora en la anfitriona, al meter la ip en el navegador de la máquina balancea
 
 ## BENCHMARK
 
+En este apartado vamos a realizar una serie de test con la herramienta `ab`.
+
+ab -n1000 -c50 http://192.168.246.128/ > test1virtualbox.txt
+
+
+
+
+
+
+
+
+
 
