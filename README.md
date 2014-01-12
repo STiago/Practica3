@@ -222,25 +222,6 @@ Inicialmente, tenemos nuestro fichero con la aplicacion en nuestra máquina anfi
 Seguidamente procedemos a iniciar la máquina, instalamos los tools y a partir de ahi seguimos los siguientes pasos:
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### EN ḾÁQUINAS CENTOS
-
-Iniciamos nuestra máquina, cambiamos a modo superusuario y seguimos los siguientes pasos:
-
 	`mkdir -p /media/cdrom`
 	`mount /dev/cdrom /media/cdrom`
 	`cd /media/cdrom`
@@ -258,7 +239,23 @@ Iniciamos nuestra máquina, cambiamos a modo superusuario y seguimos los siguien
 	`cd /mnt/hgfs`
 	
 	
+
 Y ahí estará la carpeta compartida con nuestra máquina anfitriona. Ya solo queda hacer `mv aplicacion.html /var/www` y sustituir el fichero index.html por el de nuestra aplicación y ponerla en funcionamiento como muestra la siguiente captura:
+
+
+
+#### EN ḾÁQUINAS CENTOS
+
+Iniciamos nuestra máquina, cambiamos a modo superusuario y seguimos los siguientes pasos:
+
+
+	`1. Subimos la aplicación a cualquier página`
+	`2. Abrimos el navegador y la descargamos en la máquina virtual.`
+	`3. La movemos a /var/www/html/`
+	
+
+Y finalmente la sustituimos por el index.html al igual que hemos hecho en las máquinas de ubuntu server. Quedandonos de la siguiente forma:
+
 	
 	
 ![Practica3](https://dl.dropbox.com/s/g7t6ll53k2m9n1w/app1centos.png)
