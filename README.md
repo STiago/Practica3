@@ -297,9 +297,14 @@ En este apartado vamos a realizar una serie de test con la herramienta `ab`.
 `ab -n 1000 -c 50 http://192.168.246.128/index.html > test1ubuntu.txt`
 
 
+Resultados tras haberlo ejecutado 10 veces sobre el balanceador de ubuntu:
+
+
+![Practica3](https://dl.dropbox.com/s/y9f6bng40lnwbk4/CAP.png)
 
 
 
+Al final, he hecho la media como se puede observar en la captura anterior para compararla con los resultados que nos va a dar la máquina balanceadora de centos.
 
 
 
