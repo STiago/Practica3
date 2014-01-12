@@ -243,7 +243,7 @@ Seguidamente procedemos a iniciar la máquina, instalamos los tools y a partir d
 Y ahí estará la carpeta compartida con nuestra máquina anfitriona. Ya solo queda hacer `mv aplicacion.html /var/www` y sustituir el fichero index.html por el de nuestra aplicación y ponerla en funcionamiento como muestra la siguiente captura:
 
 
-https://www.dropbox.com/s/6gv3j434f4vj4ft/calahonda.png
+![Practica3](https://dl.dropbox.com/s/6gv3j434f4vj4ft/calahonda.png)
 
 
 
