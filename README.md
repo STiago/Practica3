@@ -30,27 +30,27 @@ Finalmente probraremos la eficiencia de las diferentes configuraciones de las m�
 
 A continuación, realizo una breve descripción de las máquinas virtuales que he creado, dandole a cada una memoria RAM y un número de prodesadores determinado y distinto a las demás:
 
-### MÁQUINA 1: Ubuntu Server 12.04 - Ubuntu 1
+### MÁQUINA 1: Ubuntu Server 12.04 - Ubuntu 
+Descripción: 2 procesador / 1024 MB RAM
 
 
-
-### MÁQUINA 2: Ubuntu Server 12.04 - Ubuntu 2
-
+### MÁQUINA 2: Ubuntu Server 12.04 - Ubuntu 1
+Descripción: 1 procesador / 512 MB RAM
 
 
 ### MÁQUINA 3: Ubuntu Server 12.04 - Ubuntu Balanceador
-
+Descripción: 1 procesador / 1024 MB RAM
 
 
 ### MÁQUINA 4: CentOS 6.5 - CentOS 1
-
+Descripción: 2 procesador / 256 MB RAM
 
 ### MÁQUINA 5: CentOS 6.5 - CentOS 2
-
+Descripción: 1 procesador / 1024 MB RAM
 
 
 ### MÁQUINA 6: CentOS 6.5 - CentOS Balanceador
-
+Descripción: 2 procesador / 512 MB RAM
 
 ## BENCHMARK
 
