@@ -235,8 +235,6 @@ Seguidamente procedemos a iniciar la máquina, instalamos los tools y a partir d
 	`mount /dev/cdrom /media/cdrom`
 	`cd /media/cdrom`
 	`cp VM*.tar.gz /tmp`
-	`cd /media/cdrom`
-	`cp VM*.tar.gz /tmp`
 	`apt-get -y install linux-headers-server build-essential`
 	`cd /tmp`
 	`umount /media/cdrom`
@@ -301,12 +299,16 @@ Ambas máquinas con la configuración de 1 procesador y 1024 MB de RAM.
 Resultados tras haberlo ejecutado 10 veces sobre el balanceador de ubuntu:
 
 
-![Practica3](https://dl.dropbox.com/s/y9f6bng40lnwbk4/CAP.png)
+![Practica3](https://dl.dropbox.com/s/yr8l9ur78te96a6/capturaubuntu.png)
 
 
 
 Al final, he hecho la media como se puede observar en la captura anterior para compararla con los resultados que nos va a dar la máquina balanceadora de centos.
-+
+
+Resultados tras haberlo ejecutado 10 veces sobre el balanceador de centos:
+
+
+![Practica3](https://dl.dropbox.com/s/3ncdkevza7qc46w/capturacentos.png)
 
 
 
