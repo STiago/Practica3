@@ -296,6 +296,7 @@ En este apartado vamos a realizar una serie de test con la herramienta `ab`.
 
 `ab -n 1000 -c 50 http://192.168.246.128/index.html > test1ubuntu.txt`
 
+Ambas máquinas con la configuración de 1 procesador y 1024 MB de RAM.
 
 Resultados tras haberlo ejecutado 10 veces sobre el balanceador de ubuntu:
 
