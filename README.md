@@ -197,7 +197,7 @@ Procedemos ahora a configurar nginx en CentOS:
 					service nginx start
 					chkconfig --levels 35 nginx on
 
-			3. Modificamos el archivo de configuración añadiendole el nombre del servidor y demás igual que hemos hecho en el balanceador de Ubuntu:
+			3. Modificamos el archivo de configuración añadiendole el nombre del servidor y demás configuraciones necesarias para su funcionamiento:
 		
 					nano /etc/nginx/conf.d/default.conf
 
