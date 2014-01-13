@@ -319,10 +319,12 @@ REQUEST PER SECOND:
 
 
 TIME FOR TEST
-![Practica3]()http://ubuntuone.com/5nnfDiHcRQG4U97q0FsJXm
+
+![Practica3](http://ubuntuone.com/5nnfDiHcRQG4U97q0FsJXm)
 
 
 TIME PER REQUEST
+
 ![Practica3](http://ubuntuone.com/5JdP5psbgPOMPhvKXEJUpW)
 
 ---
