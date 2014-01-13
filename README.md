@@ -306,7 +306,7 @@ Resultados tras haberlo ejecutado 10 veces sobre el balanceador de ubuntu:
 
 
 Al final, he hecho la media como se puede observar en la captura anterior para compararla con los resultados que nos va a dar la máquina balanceadora de centos.
-
++
 
 
 
