@@ -311,6 +311,21 @@ Resultados tras haberlo ejecutado 10 veces sobre el balanceador de centos:
 ![Practica3](https://dl.dropbox.com/s/3ncdkevza7qc46w/capturacentos.png)
 
 
+Como muestran las capturas anteriores y los siguientes gráficos, vemos que el rendimiento es mejor en Ubuntu Server que en CentOS.
+
+REQUEST PER SECOND:
+
+![Practica3](http://ubuntuone.com/73DmknN2KHMzIX71D8ztde)
+
+
+TIME FOR TEST
+![Practica3]()http://ubuntuone.com/5nnfDiHcRQG4U97q0FsJXm
+
+
+TIME PER REQUEST
+![Practica3](http://ubuntuone.com/5JdP5psbgPOMPhvKXEJUpW)
+
+
 
 
 
